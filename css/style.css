@@ -637,7 +637,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .intro {
 	height: 100%;
 	padding: 0;
-	text-align: left;
+	text-align: right;
 	color: #fff;
 }
 .intro H1 {
