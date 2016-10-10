@@ -649,7 +649,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-weight: 600;
 }
 .intro .intro-text {
-	max-width: 75%;
+	width: 100%;
 }
 .intro .intro-text p {
 	font-family: 'Lato', sans-serif;
