@@ -73,7 +73,8 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #7bc3d1;
+	background: #1abc9c;
+	/*background: #7bc3d1;*/
 	margin: 0 auto;
 	margin-bottom: 30px;
 	border: 0;
@@ -89,7 +90,7 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #121d1f;
+	background-color: #16a085;
 	border-radius: 0px;
 	padding: 10px 0;
 }
@@ -137,6 +138,21 @@ hr {
 	color: #fff;
 }
 .btn-default {
+	color: #1abc9c;
+	background-color: transparent;
+	border-color: #1abc9c;
+	padding: 10px 20px;
+	margin: 0;
+	font-size: 16px;
+	border-radius: 0;
+}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	color: #fff;
+	background-color: #16a085;
+	border-color: #16a085;
+}
+
+.btn-learn-more {
 	color: #fff;
 	background-color: transparent;
 	border-color: #fff;
@@ -145,10 +161,10 @@ hr {
 	font-size: 16px;
 	border-radius: 0;
 }
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+.btn-learn-more:hover, .btn-learn-more:focus, .btn-learn-more.focus, .btn-learn-more:active, .btn-learn-more.active {
 	color: #fff;
-	background-color: #121d1f;
-	border-color: #121d1f;
+	background-color: #16a085;
+	border-color: #16a085;
 }
 .btn-primary {
 	color: #fff;
@@ -204,7 +220,8 @@ hr {
 /* Skills Section */
 #skills {
 	padding: 100px 0;
-	background: #7bc3d1;
+	background: #1abc9c;
+	/*background: #7bc3d1;*/
 }
 #skills h2 {
 	color: #fff;
@@ -502,7 +519,7 @@ ol.type li a:hover {
 }
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
-	color: #629ca7;
+	color: #1abc9c;
 	font-size: 20px;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
@@ -512,7 +529,8 @@ ol.type li a:hover {
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
-	background: #7bc3d1;
+	background: #1abc9c;
+	/*background: #7bc3d1;*/
 }
 #contact h2 {
 	color: #fff;
@@ -530,7 +548,7 @@ ol.type li a:hover {
 	padding: 30px 0;
 }
 #contact i.fa {
-	color: #121d1f;
+	color: #fff;
 	margin-bottom: 10px;
 }
 #contact .text-danger {
@@ -596,15 +614,16 @@ color: #2c3e50;
 }
 #contact .btn {
 	background-color: transparent;
-	border: 1px solid #fff;
+	border: 1px solid #1abc9c;
 	border-radius: 0;
 	padding: 10px 20px;
-	color: #fff;
+	color: #1abc9c;
 	margin-top: 15px;
 }
 #contact .btn:hover, #contact .btn:focus {
-	background-color: #121d1f;
-	border: 1px solid #121d1f;
+	background-color: #16a085;
+	border: 1px solid #16a085;
+	color: #fff;
 }
 .btn:active, .btn.active {
 	background-image: none;
